@@ -18,12 +18,12 @@ public class Book {
     public Book() {
     }
 
-    public Book(String name, String author, int year, int pages,int id) {
+    public Book(String name, String author, int year, int pages) {
         this.name = name;
         this.year = year;
         this.author = author;
         this.pages = pages;
-        this.id = id;
+
     }
     public int getId(){
         return id;
